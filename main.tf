@@ -25,6 +25,7 @@ resource "aws_subnet" "subnet2" {
     Name = "Group2"
   }
 }
+
 resource "aws_subnet" "subnet3" {
   vpc_id     = aws_vpc.group2.id
   cidr_block = var.subnet_cidr3

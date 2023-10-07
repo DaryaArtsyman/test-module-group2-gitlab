@@ -16,6 +16,7 @@ module "vp" {
     az3 = "us-east-1c"
     ip_on_launch = true
     instance_type = "t2.micro"
+
     
 }
 ```
